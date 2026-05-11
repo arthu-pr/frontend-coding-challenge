@@ -1,7 +1,5 @@
 <template>
   <div>
-    <h1>Frontend Coding Challenge</h1>
-
     <p>
       This project is a basic
       <a
@@ -42,8 +40,8 @@
           href="https://nuxt.com/docs/getting-started/data-fetching"
           target="_blank"
         >
-          Nuxt built-in hook
-        </a>.
+          Nuxt built-in hook </a
+        >.
       </li>
 
       <li>
@@ -78,94 +76,6 @@
     </ul>
 
     <p>Feel free to ask any questions if anything is not clear!</p>
-
-    <h2 class="challenge-subtitle">Setup</h2>
-
-    <p>Install the dependencies:</p>
-
-    <pre><code># npm or pnpm or yarn or
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install</code></pre>
-
-    <p>Start the development server on <code>http://localhost:3000</code>:</p>
-
-    <pre><code># npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev</code></pre>
-
-    <h2 class="challenge-subtitle">Initial views</h2>
-
-    <h3>Home</h3>
-    <img
-      src="/assets/img/desktop/desktop_home_1512x982.png"
-      alt="desktop home 1512x982"
-    />
-
-    <h3>Filter on User List</h3>
-    <img
-      src="/assets/img/desktop/desktop_home_filter_1512x982.png"
-      alt="desktop home 1512x982"
-    />
-
-    <h3>Footer</h3>
-    <img
-      src="/assets/img/desktop/desktop_home_footer_1512x982.png"
-      alt="desktop home 1512x982"
-    />
-
-    <h3>User Profile</h3>
-    <img
-      src="/assets/img/desktop/desktop_user_profile_1512x982.png"
-      alt="desktop user profile 1512x982"
-    />
-
-    <hr />
-
-    <h3>Mobile</h3>
-
-    <p>
-      <img
-        src="/assets/img/mobile/mobile_home_360x780.png"
-        alt="mobile home 360x780"
-        width="320"
-      />
-
-      <img
-        src="/assets/img/mobile/mobile_home_filter_360x780.png"
-        alt="mobile home 360x780"
-        width="320"
-      />
-    </p>
-
-    <p>
-      <img
-        src="/assets/img/mobile/mobile_home_footer_360x780.png"
-        alt="mobile home footer 360x780"
-        width="320"
-      />
-
-      <img
-        src="/assets/img/mobile/mobile_user_profile_360x780.png"
-        alt="mobile user profile 360x780"
-        width="320"
-      />
-    </p>
   </div>
 </template>
 
