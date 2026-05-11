@@ -1,11 +1,15 @@
 <template>
   <AwesomeSection>
-    <h2>
-      <a
-        href="https://github.com/arthur-plazanet/frontend-coding-challenge?tab=readme-ov-file#frontend-coding-challenge"
-        >README</a
-      >
-    </h2>
+    <details>
+      <summary title="Click to view the challenge description">
+        <strong>
+          <a href="https://github.com/reteach/frontend-challenge/tree/main"
+            >README</a
+          >
+        </strong>
+      </summary>
+      <ChallengeDescription />
+    </details>
 
     <img src="/img.png" alt="User avatar" height="300" />
   </AwesomeSection>
